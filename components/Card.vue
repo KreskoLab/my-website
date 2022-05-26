@@ -1,7 +1,7 @@
 <template>
   <article class="flex flex-col relative space-y-4 px-4 lg:px-12 mt-2">
     <div class="border-8 border-black/90 shadow-xl shadow-black/60">
-      <div class="h-[220px] sm:h-[340px] lg:h-[460px]">
+      <div class="h-[180px] sm:h-[340px] lg:h-[460px]">
         <AppSlider v-model="currentSlide">
           <AppSliderItem v-for="(slide, i) in images" :key="slide" :index="i">
             <img :src="slide" />
