@@ -130,7 +130,7 @@ onMounted(() => {
 });
 </script>
 
-<style>
+<style scoped>
 .bg-image {
   background: url(~/assets/noise.png),
     linear-gradient(
@@ -178,7 +178,7 @@ html {
 @keyframes opacityText {
   0% {
     opacity: 0;
-    transform: translateX(100px);
+    transform: translateX(10px);
   }
 
   100% {

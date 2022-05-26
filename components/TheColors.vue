@@ -46,8 +46,6 @@ onMounted(() => {
 
 li {
   width: 100%;
-  background-size: 200% 100%;
-  background-position: right;
 }
 
 .color1 {
