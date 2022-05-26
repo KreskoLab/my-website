@@ -7,10 +7,4 @@ export default defineNuxtConfig({
   css: ["~/assets/main.css"],
 
   ssr: false,
-
-  nitro: {
-    prerender: {
-      routes: ["/projects/priceefy", "/projects/balloo"],
-    },
-  },
 });
