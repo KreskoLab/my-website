@@ -4,17 +4,21 @@
       class="bg-gradient-to-tr from-stone-900 to-orange-900 bg-noise h-screen"
     >
       <div
-        class="flex flex-col justify-center items-center h-full max-w-screen-2xl container mx-auto"
+        class="flex flex-col justify-center space-y-2 h-full max-w-screen-2xl container mx-auto px-4"
       >
-        <h1 class="text-5xl lg:text-9xl text-amber-50 bg-image">
+        <h1 class="text-5xl lg:text-9xl text-center text-amber-50 bg-image">
           Andrii Orlov
         </h1>
 
-        <h2 class="text-amber-100 lg:text-lg text-opacity-anim mt-1">
+        <h2
+          class="text-amber-100 lg:text-lg text-right text-opacity-anim mt-1 mx-4"
+        >
           Yes... Another one self taught developer
         </h2>
       </div>
     </section>
+
+    <About />
 
     <TheColors />
 
@@ -60,7 +64,7 @@ const cards = [
     subtitle: "App for tracking food prices in Ukraine",
     frontend: "Frontend: Nuxt 3, Tailwind CSS, Pinia, ApexCharts, SSR",
     backend: "Backend: Nest, MongoDB, Jest, GitHub Actions",
-    github: "",
+    github: "https://github.com/KreskoLab/Priceefy",
     link: "https://priceefy.com",
     images: [
       "https://res.cloudinary.com/kresko/image/upload/v1652807950/Priceefy-thumb_oojyax.png",
@@ -74,7 +78,7 @@ const cards = [
     subtitle: "Mock of balloons e-commerce website",
     frontend: "Frontend: Nuxt 2, Windi CSS, Vuex, SSR",
     backend: "Backend: Fastify, Passport, MongoDB",
-    github: "",
+    github: "https://github.com/KreskoLab/balloo",
     link: "https://balloo.andrii.site",
     images: [
       "https://res.cloudinary.com/kresko/image/upload/v1653059804/balloo_uarh1b.png",
@@ -86,11 +90,12 @@ const cards = [
     title: "Dumka",
     subtitle: "UGC engine",
     frontend: "Frontend: Nuxt 3, Tailwind CSS, Pinia",
-    backend: "Backend: Nest, MongoDB, Jest, GitHub Actions",
+    backend: "Backend: Nuxt nitro, MongoDB",
     github: "",
     link: "",
-    image:
+    images: [
       "https://res.cloudinary.com/kresko/image/upload/v1652807950/Priceefy-thumb_oojyax.png",
+    ],
   },
 
   {
@@ -98,8 +103,9 @@ const cards = [
     subtitle: "App for manage IOT devices",
     frontend: "Frontend: Vite, Windi CSS, Pinia, SPA",
     backend: "Backend: Nest, MongoDB, Jest, Microservices",
-    image:
+    images: [
       "https://res.cloudinary.com/kresko/image/upload/v1652807950/Priceefy-thumb_oojyax.png",
+    ],
   },
 ];
 
