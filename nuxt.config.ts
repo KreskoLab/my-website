@@ -6,5 +6,5 @@ export default defineNuxtConfig({
 
   css: ["~/assets/main.css"],
 
-  ssr: false,
+  ssr: true,
 });
