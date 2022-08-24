@@ -24,7 +24,7 @@ useHead({
           <img
             width="64"
             height="64"
-            src="~/assets/me.png"
+            src="@/assets/me.png"
             alt="kresko`s avatar"
             class="rounded-xl ring-[5px] ring-sky-500/60 z-50"
           />
