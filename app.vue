@@ -19,19 +19,19 @@ useHead({
     <div
       class="container mx-auto max-w-screen-md min-w-[320px] py-16 px-4 sm:px-0 h-full"
     >
-      <section class="z-50">
+      <section>
         <div class="flex items-center space-x-6">
           <img
             width="64"
             height="64"
-            src="https://avatars.githubusercontent.com/u/29521254?v=4"
+            src="~/assets/me.png"
             alt="kresko`s avatar"
             class="rounded-xl ring-[5px] ring-sky-500/60 z-50"
           />
 
           <div class="text-sky-50/80 font-medium">
             <h1 class="text-3xl tracking-wider font-bold">Andrii Orlov</h1>
-            <p>Full stack developer</p>
+            <p>Full stack developer at 🐿️ Belkins</p>
           </div>
         </div>
 
@@ -43,23 +43,23 @@ useHead({
         <TheLinks />
       </section>
 
-      <section class="z-50">
+      <section>
         <TheAbout />
       </section>
 
-      <section class="z-50">
+      <section>
         <TheProjects />
       </section>
-
-      <section class="fixed top-0 left-0 w-full h-full">
-        <div
-          class="gradient w-full bottom-0 left-0 blur-[300px] sm:w-96 sm:blur-[500px] !bg-pink-600"
-        />
-        <div
-          class="gradient w-full top-0 right-0 blur-[300px] sm:blur-[1000px] sm:w-96 !bg-teal-600"
-        />
-      </section>
     </div>
+
+    <section class="fixed top-0 left-0 w-full h-full pointer-events-none">
+      <div
+        class="gradient w-full bottom-0 left-0 blur-[300px] sm:w-96 sm:blur-[500px] !bg-pink-600"
+      />
+      <div
+        class="gradient w-full top-0 right-0 blur-[300px] sm:blur-[1000px] sm:w-96 !bg-teal-600"
+      />
+    </section>
   </main>
 </template>
 
