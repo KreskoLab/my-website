@@ -1,19 +1,5 @@
-@font-face {
-  font-family: "Chivo";
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url("assets/fonts/Chivo-Regular.ttf") format("truetype");
-}
 
-@font-face {
-  font-family: "Chivo";
-  font-style: italic;
-  font-weight: 400;
-  font-display: swap;
-  src: url("assets/fonts/Chivo-Italic.ttf") format("truetype");
-}
 
 html {
-  font-family: "Chivo";
+  font-family: 'Source Code Pro', monospace !important;
 }
