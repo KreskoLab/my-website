@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+@theme {
+  --animate-reveal-in-blur: reveal-in-blur 0.5s ease-in-out;
+
+  @keyframes reveal-in-blur {
+    0% {
+      filter: blur(12px);
+      transform: translateY(-100%);
+    },
+
+    100% {
+      filter: blur(0);
+      transform: translateY(0);
+    }
+  }
+
+  --animate-reveal-in-blur-semi: reveal-in-blur-semi 0.5s ease-in-out;
+
+  @keyframes reveal-in-blur-semi {
+    0% {
+      filter: blur(12px);
+      transform: translateY(-50%);
+    },
+
+    100% {
+      filter: blur(0);
+      transform: translateY(0);
+    }
+  }
+}
+
+@utility animation-delay-0 { 
+  animation-duration: 0ms; 
+}
+
+@utility animation-delay-500 { 
+  animation-duration: 500ms; 
+}
+
+@utility animation-delay-1000 { 
+  animation-duration: 1000ms; 
+}
+
+html {
+  font-family: 'Poppins', serif;
+}
